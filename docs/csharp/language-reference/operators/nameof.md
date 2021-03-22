@@ -17,7 +17,7 @@ A `nameof` expression produces the name of a variable, type, or member as the st
 
 As the preceding example shows, in the case of a type and a namespace, the produced name is not [fully qualified](~/_csharplang/spec/basic-concepts.md#fully-qualified-names).
 
-In the case of [verbatim identifiers](../tokens/verbatim.md), the `@` character is not the part of a name, as the following example shows:
+In the case of [verbatim identifiers](../tokens/verbatim.md), the `@` character is not part of the name, as the following example shows:
 
 [!code-csharp-interactive[nameof verbatim](snippets/shared/NameOfOperator.cs#Verbatim)]
 
